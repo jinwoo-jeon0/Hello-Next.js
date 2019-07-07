@@ -1,10 +1,8 @@
-import Link from 'next/link';
+import Header from '../components/Header';
 
 const Index = () => (
   <div>
-    <Link href="/about">
-      <button title="About Page">About Page</button>
-    </Link>
+    <Header />
     <p>Hello Next.js</p>
   </div>
 );
