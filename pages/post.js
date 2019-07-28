@@ -10,12 +10,10 @@ const Content = () => {
     </>
   );
 }
-const Page = () => {
-  return (
-    <Layout>
-      <Content />
-    </Layout>
-  );
-};
+const Page = () => (
+  <Layout>
+    <Content />
+  </Layout>
+);
 
 export default Page;
